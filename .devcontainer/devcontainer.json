@@ -44,9 +44,9 @@
   //   "source=${localEnv:HOME}${localEnv:USERPROFILE}/.gitconfig,target=/root/.gitconfig_mounted,type=bind,consistency=cached"
   // ],
   "remoteEnv": {
-    "PYTHONPATH": "/workspaces/demo-devcontainer"
+    "PYTHONPATH": "/workspaces/TJR101_2"
   },
-  "postCreateCommand": "sh ./.devcontainer/postCreateCommand.sh",
+  "postCreateCommand": "bash ./.devcontainer/postCreateCommand.sh",
   "runArgs": [
     "--name",
     "TJR101_2",
